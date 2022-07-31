@@ -1,0 +1,70 @@
+{
+	"property": [
+		{
+			"id": 0,
+			"rent": 1000,
+			"state": "New Delhi",
+			"streetAddress": "Shreenath Towers,Kandivali,Delhi",
+			"dateAvailable": "2022-06-15",
+			"beds": 3,
+			"bathroom": 2,
+			"area": "5*7",
+			"house": "house"
+		},
+		{
+			"id": 1,
+			"rent": 10000,
+			"state": "Mumbai",
+			"streetAddress": "Veera Desai Rd Andheri, Mumbai",
+			"dateAvailable": "2022-10-1",
+			"beds": 3,
+			"bathroom": 2,
+			"area": "5*7",
+			"type": "house"
+		},
+		{
+			"id": 2,
+			"rent": 15000,
+			"state": "Hyderabad",
+			"streetAddress": "Hill View Indl Estate,Hyderabad",
+			"dateAvailable": "2022-09-6",
+			"beds": 3,
+			"bathroom": 2,
+			"area": "5*7",
+			"type": "house"
+		},
+		{
+			"id": 3,
+			"rent": 21000,
+			"state": "New Delhi",
+			"streetAddress": "136 Shanker Lane Kandivali,Delhi",
+			"dateAvailable": "2022-09-2022",
+			"beds": 3,
+			"bathroom": 2,
+			"area": "5*7",
+			"type": "office"
+		},
+		{
+			"id": 4,
+			"rent": 7000,
+			"state": "Hyderabad",
+			"streetAddress": "Shanker Lane Kandivali,Hyderabad",
+			"dateAvailable": "2022-09-2022",
+			"beds": 3,
+			"bathroom": 1,
+			"area": "7*7",
+			"type": "house"
+		},
+		{
+			"id": 5,
+			"rent": 28000,
+			"state": "New Delhi",
+			"streetAddress": "Shanker Lane Kandivali,Delhi",
+			"dateAvailable": "2022-09-2022",
+			"beds": 5,
+			"bathroom": 3,
+			"area": "10*15",
+			"type": "industrial"
+		}
+	]
+}
