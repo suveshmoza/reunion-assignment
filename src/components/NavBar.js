@@ -5,7 +5,7 @@ const NavBar = () => {
 		<nav className="navbar navbar-expand-lg bg-light">
 			<div className="container container-fluid">
 				<a className="navbar-brand" href="#">
-					<i class="fa-solid fa-house" style={{ color: '#003EFF' }}></i>
+					<i className="fa-solid fa-house" style={{ color: '#003EFF' }}></i>
 					Real Estate
 				</a>
 				<button

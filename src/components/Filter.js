@@ -24,6 +24,16 @@ const Filter = ({ properties }) => {
 		if (availableDate !== '') {
 			res = res.filter((res) => availableDate >= res.dateAvailable);
 		}
+		console.log(availableDate, propertyType, minPrice, maxPrice, location);
+		if (
+			availableDate === '' &&
+			propertyType === '' &&
+			minPrice === 0 &&
+			maxPrice === 0 &&
+			location === ''
+		) {
+			setNewData([...properties]);
+		}
 		setNewData(res);
 	};
 
@@ -42,12 +52,12 @@ const Filter = ({ properties }) => {
 								setLocation(e.target.value);
 							}}
 						>
-							<option>Select a location</option>
+							<option value="">Select a location</option>
 							<option value="New Delhi">New Delhi</option>
 							<option value="Mumbai">Mumbai</option>
 							<option value="Hyderabad">Hyderabad</option>
 						</select>
-						<label for="floatingSelectGrid">Location</label>
+						<label htmlFor="floatingSelectGrid">Location</label>
 					</div>
 				</div>
 				<div className="col-md-2">
@@ -61,7 +71,7 @@ const Filter = ({ properties }) => {
 								setAvailableDate(e.target.value);
 							}}
 						/>
-						<label for="floatingSelectGrid">When</label>
+						<label htmlFor="floatingSelectGrid">When</label>
 					</div>
 				</div>
 				<div className="col-md-2">
@@ -81,7 +91,7 @@ const Filter = ({ properties }) => {
 							<option value="10000 20000">₹10000-₹20000</option>
 							<option value="20000 30000">₹20000-₹30000</option>
 						</select>
-						<label for="floatingSelectGrid">Range</label>
+						<label htmlFor="floatingSelectGrid">Range</label>
 					</div>
 				</div>
 				<div className="col-md-2">
@@ -98,7 +108,7 @@ const Filter = ({ properties }) => {
 							<option value="office">Office</option>
 							<option value="industrial">Industrial</option>
 						</select>
-						<label for="floatingSelectGrid">Property Type</label>
+						<label htmlFor="floatingSelectGrid">Property Type</label>
 					</div>
 				</div>
 				<div className="mx-1 col-md-2 row">

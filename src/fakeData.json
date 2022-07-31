@@ -65,6 +65,28 @@
 			"bathroom": 3,
 			"area": "10*15",
 			"type": "industrial"
+		},
+		{
+			"id": 6,
+			"rent": 22000,
+			"state": "New Delhi",
+			"streetAddress": "Near AIIMS, Delhi",
+			"dateAvailable": "2022-05-2022",
+			"beds": 3,
+			"bathroom": 3,
+			"area": "15*15",
+			"type": "home"
+		},
+		{
+			"id": 7,
+			"rent": 5000,
+			"state": "Mumbai",
+			"streetAddress": "Andheri Road,Mumbai",
+			"dateAvailable": "2022-06-2022",
+			"beds": 2,
+			"bathroom": 1,
+			"area": "5*7",
+			"type": "home"
 		}
 	]
 }
